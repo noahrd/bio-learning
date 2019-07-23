@@ -1,0 +1,11 @@
+#'Variables and Some Artihmetic' problem from ROSALIND
+
+#Given:Two positive integers a and b, each less than 1000
+#Reuturn:The integer corresponding to the square of the hypotenuse of the right triangle whose legs have lengths a and b
+
+#Define variables a and b
+a=928
+b=961
+#find c and print the answer
+c=a**2+b**2
+print c
