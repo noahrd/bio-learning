@@ -1,0 +1,17 @@
+#'Conditions and Loops' problem from ROSALIND
+
+#Given:Two positive integers a and b (a<b<10000)
+#Return:The sum of all odd integers from a through b, inclusively
+
+#Define variables a and b
+a=4143
+b=9093
+#Create range from a to b and a list for odd numbers
+c=range(a,b+1)
+d_list = []
+#Pull out odd numbers
+for item in range(a,b+1):
+    if item %2==1:
+        d_list.append(item)
+#Print the sum of odd numbers 
+print sum(d_list)
