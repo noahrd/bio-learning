@@ -3,12 +3,12 @@
 #Return: The slice of this string from indices a through b and c through d (with space in between), inclusively. In other words, we should include elements s[b] and s[d] in our slice
 
 #Define variables
-a=22
-b=27
-c=97
-d=102
+a=34
+b=45
+c=126
+d=136
 #Define string
-jingle = 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain'
+jingle = 'LrUJelh6KivKqnNcwCL1et92Nrpawea0m8NatriciteresVtiwb83J5SNfWBVHCPad7zIDuOerzsfP6cnlhLPRXKXlStdz4S7uBp9zLK7mDIj7gjAPsWao7yPePFwQbicoloratumOJB5JhSdm7292SQPjCS8VMzVd8gm'
 #Pull required items out of list and add a space 
 e=jingle[a:b+1] + ' ' + jingle[c:d+1]
 #Print string slice
