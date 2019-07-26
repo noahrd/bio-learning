@@ -6,14 +6,12 @@
 #Define the target lines
 evens=[]
 #Open file and retrieve target lines
-a=open('sample.txt','w')
+a=open('sample.txt','r')
 with open('sample.txt') as myFile:
     for num,line in enumerate(myFile):
         if num %2==1:
-            #a.read(str(line) + '\n')
             evens.append(line)
 #Print target lines
-for line in evens:
-    a.write(str(line) + '\n')
+print evens
 #close file
 a.close()
