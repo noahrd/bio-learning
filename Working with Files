@@ -1,0 +1,19 @@
+#'Working with Files' problem from ROSALIND
+
+#Given:A file containing at most 1000 lines.
+#Return:A file containing all the even-numbered lines from the original file. Assume 1-based numbering of lines.
+
+#Define the target lines
+evens=[]
+#Open file and retrieve target lines
+a=open('sample.txt','w')
+with open('sample.txt') as myFile:
+    for num,line in enumerate(myFile):
+        if num %2==1:
+            #a.read(str(line) + '\n')
+            evens.append(line)
+#Print target lines
+for line in evens:
+    a.write(str(line) + '\n')
+#close file
+a.close()
